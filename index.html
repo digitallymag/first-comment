@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/367a320177.js"></script>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+
+        <header id="header">
+            <div class="row align-items-center">
+                <div class="col">
+                    <img src="Logo.jpg" style="width: 140px;">
+                </div>
+                <div class="col">
+                </div>
+                <div id="header-menus" style="text-align: right;">
+                    <a href="#" class="header-links">Log In</a>
+                    <a href="#" class="header-links">Sign Up</a>
+                    <a href="#" class="header-links">Set Up My Business</a>
+                    <i class="fas fa-bars" id="hamburger" onclick="toggleMenu()"></i>
+                    <!-- <P id="hamburger" onclick="toggleMenu()">test</P> -->
+                </div>
+            </div>
+        </header>
+
+        <!-- <div class="mobile-header">
+            <a href="#" class="header-links-mobile">Log In</a>
+            <a href="#" class="header-links-mobile">Sign Up</a>
+            <a href="#" class="header-links-mobile">Set Up My Business</a>
+        </div> -->
+
+        <form>
+
+            <div class="input-group" id="search-parent">
+                <input type="text" class="form-control top-inputs" placeholder="What are you looking for?"
+                    aria-label="What are you looking for?">
+                <input type="text" class="form-control top-inputs" placeholder="Where?" aria-label="Where?">
+                <button class="input-group-text" id="button-1 basic-addon2">Search</button>
+                </input>
+            </div>
+
+            <p class="h3 text-center" id="page-heading">Support and Help</p>
+            <p class="text-label">Full Name</p>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control form-inputs" aria-describedby="button-addon2" id="input-one">
+            </div>
+
+            <p class="text-label">Email</p>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control form-inputs" aria-describedby="button-addon2" id="input-two">
+            </div>
+
+            <p class="text-label">Subject</p>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control form-inputs" id="invalidCheck3Feedback"
+                    aria-describedby="button-addon2">
+            </div>
+
+            <p class="text-label">Message</p>
+            <div class="input-group">
+                <textarea class="form-control form-inputs" aria-label="With textarea" height="500" rows="5"></textarea>
+            </div>
+            <div class="col-12">
+                <button type="button" id="submit-btn">Send</button>
+            </div>
+
+        </form>
+
+        <div class="empty-space"></div>
+
+    </div>
+
+    <div id="footer">
+        <div class="card text-center">
+
+            <div>
+                <div class="card-body">
+                    <div class="footer container">
+                        <div class="footer-items" id="test">
+                            <p style="color: grey">Join Beauty Vitae to be the first to know about new releases,
+                                promotions, exclusive deals and
+                                content.</p>
+                            <div class="subs-bar">
+                                <input type="text" />
+                                <button>JOIN</button>
+                            </div>
+                            <div class="payment-sec">
+                                <button class="payment-icons"></button>
+                                <button class="payment-icons"></button>
+                                <button class="payment-icons"></button>
+                                <button class="payment-icons"></button>
+                                <button class="payment-icons"></button>
+                            </div>
+                        </div>
+                        <div class="footer-items">
+                            <div class="quick-links">
+                                <h5>QUICK LINKS</h5>
+                                <ul>
+                                    <li>
+                                        <a href="#">Log In</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Sign Up</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Search Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Set Up My Business</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-items">
+                            <div class="contact-div">
+                                <h5>CONTACT</h5>
+                                <div class="footer-info">
+                                    <p>Beauty Vitae </p>
+                                    <p><a href="#">BVteam@beautyvitae.com</a> </p>
+                                    <p><a href="#">www.beautyvitae.com </a></p>
+                                    <p>3510 South Millway </p>
+                                    <p>Mississauga, L5L3T9, ON </p>
+                                    <p>Canada</p>
+                                    <p> Customer Support: <a href="#"> +1-800-123-321</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-items">
+                            <img src="security-image.PNG" class="security-image" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerbar">
+                <div class="footerbar-child">
+                    <a href="#">PRIVACY POLICY</a>
+                    <a href="#">CAREERS</a>
+                </div>
+                <div class="footerbar-child">
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="footerbar-child">
+                    Copyright 2021 Serve Vitea. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('#submit-btn').click(function () {
+                var isValid;
+                $(".form-inputs").each(function () {
+                    var element = $(this);
+                    if (element.val() == "") {
+                        $(this).addClass("is-invalid");
+                        isValid = false;
+                    } else {
+                        $(this).removeClass("is-invalid");
+                        isValid = false;
+                    }
+                });
+            });
+        });
+    </script>
+    <!-- Bootstrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
